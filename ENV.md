@@ -14,9 +14,9 @@ AWS_SES_REGION_ENDPOINT=""
 
 
 # DB
-DBNAME="bottlecrm"
-DBUSER="postgres"
-DBPASSWORD="root"
+DBNAME="mart"
+DBUSER="mart"
+DBPASSWORD="root9"
 DBHOST="localhost"
 DBPORT=""
 
@@ -34,5 +34,5 @@ SWAGGER_ROOT_URL=""
 MEMCACHELOCATION=""
 
 # Email
-DEFAULT_FROM_EMAIL=""
-ADMIN_EMAIL=""
+DEFAULT_FROM_EMAIL="randomgamedev@protonmail.com"
+ADMIN_EMAIL="randomgamedev@protonmail.com"

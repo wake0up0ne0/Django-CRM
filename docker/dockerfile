@@ -34,4 +34,4 @@ COPY docker/wait-for-postgres.sh /app
 
 RUN chmod +x entrypoint.sh 
 RUN chmod +x wait-for-postgres.sh
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["/app/entrypoint.sh"]
